@@ -1,0 +1,24 @@
+.board {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  div > div {
+    padding: 30px;
+    background-color: #ccc;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size:15px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
